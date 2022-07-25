@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FileByteCompareForm));
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnCut = new AKANet.WinForms.Controls.CustomButton();
             this.btnCopy = new AKANet.WinForms.Controls.CustomButton();
@@ -66,7 +67,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(584, 441);
+            this.panel1.Size = new System.Drawing.Size(876, 662);
             this.panel1.TabIndex = 109;
             // 
             // btnCut
@@ -77,11 +78,12 @@
             this.btnCut.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btnCut.FillStyle = AKANet.WinForms.Controls.FillStyle.Glow;
             this.btnCut.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCut.Location = new System.Drawing.Point(64, 121);
+            this.btnCut.Location = new System.Drawing.Point(96, 182);
+            this.btnCut.Margin = new System.Windows.Forms.Padding(4);
             this.btnCut.Name = "btnCut";
             this.btnCut.OuterBoundPaint = AKANet.WinForms.Controls.OuterBoundPaint.ParentBackColor;
             this.btnCut.ShapeStyle = AKANet.WinForms.Controls.ShapeStyle.Rectangle;
-            this.btnCut.Size = new System.Drawing.Size(49, 28);
+            this.btnCut.Size = new System.Drawing.Size(74, 42);
             this.btnCut.TabIndex = 116;
             this.btnCut.Text = "Cut";
             this.btnCut.Click += new System.EventHandler(this.btnCut_Click);
@@ -94,11 +96,12 @@
             this.btnCopy.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btnCopy.FillStyle = AKANet.WinForms.Controls.FillStyle.Glow;
             this.btnCopy.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCopy.Location = new System.Drawing.Point(13, 121);
+            this.btnCopy.Location = new System.Drawing.Point(20, 182);
+            this.btnCopy.Margin = new System.Windows.Forms.Padding(4);
             this.btnCopy.Name = "btnCopy";
             this.btnCopy.OuterBoundPaint = AKANet.WinForms.Controls.OuterBoundPaint.ParentBackColor;
             this.btnCopy.ShapeStyle = AKANet.WinForms.Controls.ShapeStyle.Rectangle;
-            this.btnCopy.Size = new System.Drawing.Size(49, 28);
+            this.btnCopy.Size = new System.Drawing.Size(74, 42);
             this.btnCopy.TabIndex = 115;
             this.btnCopy.Text = "Copy";
             this.btnCopy.Click += new System.EventHandler(this.btnCopy_Click);
@@ -111,11 +114,12 @@
             this.btnClear.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btnClear.FillStyle = AKANet.WinForms.Controls.FillStyle.Glow;
             this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClear.Location = new System.Drawing.Point(115, 121);
+            this.btnClear.Location = new System.Drawing.Point(172, 182);
+            this.btnClear.Margin = new System.Windows.Forms.Padding(4);
             this.btnClear.Name = "btnClear";
             this.btnClear.OuterBoundPaint = AKANet.WinForms.Controls.OuterBoundPaint.ParentBackColor;
             this.btnClear.ShapeStyle = AKANet.WinForms.Controls.ShapeStyle.Rectangle;
-            this.btnClear.Size = new System.Drawing.Size(49, 28);
+            this.btnClear.Size = new System.Drawing.Size(74, 42);
             this.btnClear.TabIndex = 114;
             this.btnClear.Text = "Clear";
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
@@ -127,10 +131,11 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtOutput.BackColor = System.Drawing.Color.LightCyan;
             this.txtOutput.Font = new System.Drawing.Font("Courier New", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtOutput.Location = new System.Drawing.Point(13, 151);
+            this.txtOutput.Location = new System.Drawing.Point(20, 226);
+            this.txtOutput.Margin = new System.Windows.Forms.Padding(4);
             this.txtOutput.Name = "txtOutput";
             this.txtOutput.ReadOnly = true;
-            this.txtOutput.Size = new System.Drawing.Size(561, 278);
+            this.txtOutput.Size = new System.Drawing.Size(840, 415);
             this.txtOutput.TabIndex = 113;
             this.txtOutput.Text = "";
             this.txtOutput.WordWrap = false;
@@ -144,11 +149,12 @@
             this.btnCalcDiff.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(240)))), ((int)(((byte)(135)))));
             this.btnCalcDiff.FillStyle = AKANet.WinForms.Controls.FillStyle.Glow;
             this.btnCalcDiff.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
-            this.btnCalcDiff.Location = new System.Drawing.Point(233, 85);
+            this.btnCalcDiff.Location = new System.Drawing.Point(350, 128);
+            this.btnCalcDiff.Margin = new System.Windows.Forms.Padding(4);
             this.btnCalcDiff.Name = "btnCalcDiff";
             this.btnCalcDiff.OuterBoundPaint = AKANet.WinForms.Controls.OuterBoundPaint.ParentBackColor;
             this.btnCalcDiff.ShapeStyle = AKANet.WinForms.Controls.ShapeStyle.Rectangle;
-            this.btnCalcDiff.Size = new System.Drawing.Size(119, 42);
+            this.btnCalcDiff.Size = new System.Drawing.Size(178, 63);
             this.btnCalcDiff.TabIndex = 111;
             this.btnCalcDiff.Text = "Calc";
             this.btnCalcDiff.Click += new System.EventHandler(this.btnCalcDiff_Click);
@@ -161,11 +167,12 @@
             this.btnBrowseFile1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(215)))), ((int)(((byte)(215)))));
             this.btnBrowseFile1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btnBrowseFile1.FillStyle = AKANet.WinForms.Controls.FillStyle.Glow;
-            this.btnBrowseFile1.Location = new System.Drawing.Point(499, 6);
+            this.btnBrowseFile1.Location = new System.Drawing.Point(748, 9);
+            this.btnBrowseFile1.Margin = new System.Windows.Forms.Padding(4);
             this.btnBrowseFile1.Name = "btnBrowseFile1";
             this.btnBrowseFile1.OuterBoundPaint = AKANet.WinForms.Controls.OuterBoundPaint.ParentBackColor;
             this.btnBrowseFile1.ShapeStyle = AKANet.WinForms.Controls.ShapeStyle.Rectangle;
-            this.btnBrowseFile1.Size = new System.Drawing.Size(75, 30);
+            this.btnBrowseFile1.Size = new System.Drawing.Size(112, 45);
             this.btnBrowseFile1.TabIndex = 107;
             this.btnBrowseFile1.Text = "Browse";
             this.btnBrowseFile1.Click += new System.EventHandler(this.btnBrowseFile1_Click);
@@ -178,11 +185,12 @@
             this.btnBrowseFile2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(215)))), ((int)(((byte)(215)))));
             this.btnBrowseFile2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btnBrowseFile2.FillStyle = AKANet.WinForms.Controls.FillStyle.Glow;
-            this.btnBrowseFile2.Location = new System.Drawing.Point(499, 42);
+            this.btnBrowseFile2.Location = new System.Drawing.Point(748, 63);
+            this.btnBrowseFile2.Margin = new System.Windows.Forms.Padding(4);
             this.btnBrowseFile2.Name = "btnBrowseFile2";
             this.btnBrowseFile2.OuterBoundPaint = AKANet.WinForms.Controls.OuterBoundPaint.ParentBackColor;
             this.btnBrowseFile2.ShapeStyle = AKANet.WinForms.Controls.ShapeStyle.Rectangle;
-            this.btnBrowseFile2.Size = new System.Drawing.Size(75, 30);
+            this.btnBrowseFile2.Size = new System.Drawing.Size(112, 45);
             this.btnBrowseFile2.TabIndex = 106;
             this.btnBrowseFile2.Text = "Browse";
             this.btnBrowseFile2.Click += new System.EventHandler(this.btnBrowseFile2_Click);
@@ -194,9 +202,10 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtFile2.BackColor = System.Drawing.SystemColors.Info;
             this.txtFile2.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFile2.Location = new System.Drawing.Point(60, 46);
+            this.txtFile2.Location = new System.Drawing.Point(90, 69);
+            this.txtFile2.Margin = new System.Windows.Forms.Padding(4);
             this.txtFile2.Name = "txtFile2";
-            this.txtFile2.Size = new System.Drawing.Size(433, 22);
+            this.txtFile2.Size = new System.Drawing.Size(648, 30);
             this.txtFile2.TabIndex = 103;
             this.txtFile2.DragDrop += new System.Windows.Forms.DragEventHandler(this.txtFile_DragDrop);
             this.txtFile2.DragEnter += new System.Windows.Forms.DragEventHandler(this.txtFile_DragEnter);
@@ -204,10 +213,10 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(10, 48);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(15, 72);
+            this.label3.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(43, 18);
+            this.label3.Size = new System.Drawing.Size(73, 29);
             this.label3.TabIndex = 104;
             this.label3.Text = "File 2";
             // 
@@ -218,9 +227,10 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtFile1.BackColor = System.Drawing.SystemColors.Info;
             this.txtFile1.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFile1.Location = new System.Drawing.Point(60, 10);
+            this.txtFile1.Location = new System.Drawing.Point(90, 15);
+            this.txtFile1.Margin = new System.Windows.Forms.Padding(4);
             this.txtFile1.Name = "txtFile1";
-            this.txtFile1.Size = new System.Drawing.Size(433, 22);
+            this.txtFile1.Size = new System.Drawing.Size(648, 30);
             this.txtFile1.TabIndex = 101;
             this.txtFile1.DragDrop += new System.Windows.Forms.DragEventHandler(this.txtFile_DragDrop);
             this.txtFile1.DragEnter += new System.Windows.Forms.DragEventHandler(this.txtFile_DragEnter);
@@ -228,21 +238,23 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(10, 12);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(15, 18);
+            this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(43, 18);
+            this.label2.Size = new System.Drawing.Size(73, 29);
             this.label2.TabIndex = 102;
             this.label2.Text = "File 1";
             // 
             // FileByteCompareForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.Azure;
-            this.ClientSize = new System.Drawing.Size(584, 441);
+            this.ClientSize = new System.Drawing.Size(876, 662);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FileByteCompareForm";
             this.Text = "File Byte Compare";
             this.panel1.ResumeLayout(false);
