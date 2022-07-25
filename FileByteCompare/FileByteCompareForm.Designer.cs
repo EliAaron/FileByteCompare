@@ -156,7 +156,7 @@
             this.btnCalcDiff.ShapeStyle = AKANet.WinForms.Controls.ShapeStyle.Rectangle;
             this.btnCalcDiff.Size = new System.Drawing.Size(178, 63);
             this.btnCalcDiff.TabIndex = 111;
-            this.btnCalcDiff.Text = "Calc";
+            this.btnCalcDiff.Text = "Compare";
             this.btnCalcDiff.Click += new System.EventHandler(this.btnCalcDiff_Click);
             // 
             // btnBrowseFile1

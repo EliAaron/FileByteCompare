@@ -57,7 +57,7 @@ namespace FileByteCompare
             btnBrowseFile2.Enabled = true;
             btnCut.Enabled = true;
             btnClear.Enabled = true;
-            btnCalcDiff.Text = "Calc";
+            btnCalcDiff.Text = "Compare";
             btnCalcDiff.BackColor = StartColor;
             btnCalcDiff.BorderColor = StartBorderColor;
         }
@@ -80,7 +80,7 @@ namespace FileByteCompare
                 string.IsNullOrEmpty(txtFile2.Text))
             {
                 ShowErrorMessage(
-                    "Select two file first",
+                    "Select two files!",
                     "!!!",
                     MessageBoxIcon.Exclamation);
 
